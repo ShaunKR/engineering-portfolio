@@ -1,6 +1,8 @@
 # Docker
 
-아직 작성된 기술 문서가 없습니다. 아래 주제부터 필요에 따라 확장합니다.
+## 테스트 경험
+
+- [MQTT 브로커 전환 및 공유 구독 테스트](mqtt-keepalived-failover.md): EMQX 5.0, HAProxy, Keepalived를 이용한 VIP 기반 전환 구성과 공유 구독 테스트
 
 ## 예정 주제
 
