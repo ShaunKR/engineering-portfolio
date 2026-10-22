@@ -5,7 +5,7 @@
 | 작업 | 내용 |
 | --- | --- |
 | [messaging] [MQTT 브로커 전환 및 공유 구독](mqtt-ha/README.md) | 과거 경험과 macOS 재현 실습, 실행 결과 |
-| [network] [NIC Active-Backup 본딩](nic-bonding/README.md) | Netplan 설정 자동화 스크립트와 사용 설명 |
+| [network] [NIC Active-Backup 본딩](nic-bonding/README.md) | Y사 실제 고객사 서버의 NIC 본딩 적용 경험과 공개용 설정 스크립트 |
 
 ## 협업·설계 자료
 
