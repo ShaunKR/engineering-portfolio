@@ -7,6 +7,7 @@
 | [messaging] [MQTT 브로커 전환 및 공유 구독](mqtt-ha/README.md) | 과거 경험과 macOS 재현 실습, 실행 결과 |
 | [network] [NIC Active-Backup 본딩](nic-bonding/README.md) | Y사 실제 고객사 서버의 NIC 본딩 적용 경험과 공개용 설정 스크립트 |
 | [android] [폐쇄망 PDA APK 배포·자동 업데이트](PDA자동업데이트/README.md) | HTTP·FTP 배포, QR 최초 설치, 통합 버전 정보와 앱 업데이트 연동 |
+| [robotics] [ROS 2 Windows 설치](ROS2윈도우설치/README.md) | Windows 11의 Humble 소스 빌드, 오류 대응 및 .NET 연동 기록 |
 
 ## 협업·설계 자료
 
