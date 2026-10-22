@@ -4,8 +4,12 @@
 
 | 작업 | 내용 |
 | --- | --- |
-| [MQTT 브로커 전환 및 공유 구독](mqtt-ha/README.md) | 과거 경험과 macOS 재현 실습, 실행 결과 |
-| [NIC Active-Backup 본딩](nic-bonding/README.md) | Netplan 설정 자동화 스크립트와 사용 설명 |
+| [messaging] [MQTT 브로커 전환 및 공유 구독](mqtt-ha/README.md) | 과거 경험과 macOS 재현 실습, 실행 결과 |
+| [network] [NIC Active-Backup 본딩](nic-bonding/README.md) | Netplan 설정 자동화 스크립트와 사용 설명 |
+
+## 이름 표기
+
+작업 제목 앞에 `[network]`, `[messaging]`처럼 분야를 표시합니다. 기술 정리 문서는 `[doc]`으로 표시합니다. 폴더명은 짧은 영문 소문자와 하이픈을 사용합니다.
 
 ## 작업 추가 방법
 
