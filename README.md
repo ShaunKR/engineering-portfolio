@@ -14,6 +14,7 @@
 | 메시징 | 메시지 전달, 순서 보장, 재처리 | [메시징](wiki/messaging/README.md) |
 | 컨테이너 | Docker | [Docker](wiki/docker/README.md) |
 | 데이터베이스 | 모델링, 인덱스, 트랜잭션, 성능 분석 | [데이터베이스](wiki/databases/README.md) |
+| 네트워크 | NIC 본딩, 장애 전환 구성 | [네트워크](wiki/networking/README.md) |
 
 ## 문서 탐색
 
