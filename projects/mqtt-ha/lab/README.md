@@ -126,4 +126,4 @@ docker compose down
 - [EMQX 공유 구독](https://docs.emqx.com/en/emqx/latest/messaging/mqtt-shared-subscription.html)
 - [Docker Desktop 호스트 네트워킹](https://docs.docker.com/engine/network/drivers/host/)
 
-[Docker 문서 목록으로](../README.md)
+[작업 설명으로](../README.md)
