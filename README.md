@@ -11,7 +11,7 @@
 
 ## 협업·설계 자료
 
-[doc] [개발 PL 협업·설계 가이드](projects/development-playbook/README.md)
+[doc] [개발 PL 협업·설계 가이드](projects/개발협업가이드/README.md)
 
 PMP 보유 개발 PL의 스쿼드·애자일 경험을 바탕으로 공개용으로 재작성한 자료입니다. 코드 컨벤션, 커밋·리뷰, 완료 기준, 스쿼드 운영, MSA 설계 판단과 릴리스 양식을 담았습니다. 세부 규칙은 제안 기준이며 과거 적용 실적과 구분합니다.
 
@@ -23,7 +23,7 @@ engineering-portfolio/
 ├── CONTRIBUTING.md
 ├── projects/                 # 공개 가능한 작업과 결과물
 │   ├── README.md
-│   ├── development-playbook/  # 협업·애자일·설계 가이드와 양식
+│   ├── 개발협업가이드/  # 협업·애자일·설계 가이드와 양식
 │   ├── mqtt-ha/
 │   │   ├── README.md
 │   │   ├── experience.md     # 과거 수행 경험
@@ -43,7 +43,7 @@ engineering-portfolio/
 ## 문서 탐색
 
 - [작업 목록과 추가 방법](projects/README.md)
-- [doc] [개발 PL 협업·설계 가이드](projects/development-playbook/README.md)
+- [doc] [개발 PL 협업·설계 가이드](projects/개발협업가이드/README.md)
 - [공통 자료](assets/README.md)
 
 ## 기록 기준
