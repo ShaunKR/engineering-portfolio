@@ -1,0 +1,49 @@
+name: mqtt-lab-mac
+services:
+  broker-a:
+    image: emqx/emqx:5.0.26
+    hostname: broker-a.local
+    environment:
+      EMQX_NODE__NAME: emqx@broker-a.local
+      EMQX_NODE__COOKIE: lab-a-only
+      EMQX_CLUSTER__DISCOVERY_STRATEGY: manual
+    ports:
+      - "127.0.0.1:18831:1883"
+      - "127.0.0.1:18083:18083"
+    healthcheck:
+      test: ["CMD", "/opt/emqx/bin/emqx", "ctl", "status"]
+      interval: 10s
+      timeout: 10s
+      retries: 12
+      start_period: 30s
+  broker-b:
+    image: emqx/emqx:5.0.26
+    hostname: broker-b.local
+    environment:
+      EMQX_NODE__NAME: emqx@broker-b.local
+      EMQX_NODE__COOKIE: lab-b-only
+      EMQX_CLUSTER__DISCOVERY_STRATEGY: manual
+    ports:
+      - "127.0.0.1:18832:1883"
+      - "127.0.0.1:18084:18083"
+    healthcheck:
+      test: ["CMD", "/opt/emqx/bin/emqx", "ctl", "status"]
+      interval: 10s
+      timeout: 10s
+      retries: 12
+      start_period: 30s
+  haproxy:
+    image: haproxy:3.0.11-alpine
+    ports:
+      - "127.0.0.1:1883:1883"
+    volumes:
+      - ./haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg:ro
+    depends_on:
+      broker-a:
+        condition: service_healthy
+      broker-b:
+        condition: service_healthy
+  mqtt:
+    image: eclipse-mosquitto:2.0.22
+    profiles: [tools]
+    entrypoint: []
