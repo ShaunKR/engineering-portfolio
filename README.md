@@ -6,8 +6,8 @@
 
 | 작업 | 주요 기술 | 공개 내용 | 확인 상태 |
 | --- | --- | --- | --- |
-| [MQTT 브로커 전환 및 공유 구독](projects/mqtt-ha/README.md) | EMQX 5.0, HAProxy, Docker Compose, Keepalived | 과거 작업 기록, macOS 재현 구성, 실행 로그 | 공유 구독·재연결 검증. VIP 전환은 이번 재현에서 제외 |
-| [NIC Active-Backup 본딩](projects/nic-bonding/README.md) | Bash, Netplan, NetworkManager | 설정 스크립트, 사용 방법과 검증 범위 | Bash 구문 확인. 실제 장애 전환은 미검증 |
+| [messaging] [MQTT 브로커 전환 및 공유 구독](projects/mqtt-ha/README.md) | EMQX 5.0, HAProxy, Docker Compose, Keepalived | 과거 작업 기록, macOS 재현 구성, 실행 로그 | 공유 구독·재연결 검증. VIP 전환은 이번 재현에서 제외 |
+| [network] [NIC Active-Backup 본딩](projects/nic-bonding/README.md) | Bash, Netplan, NetworkManager | 설정 스크립트, 사용 방법과 검증 범위 | Bash 구문 확인. 실제 장애 전환은 미검증 |
 
 ## 저장소 구조
 
@@ -38,7 +38,7 @@ engineering-portfolio/
 ## 문서 탐색
 
 - [작업 목록과 추가 방법](projects/README.md)
-- [기술 위키](wiki/README.md)
+- [doc] [기술 위키](wiki/README.md)
 - [트러블슈팅](troubleshooting/README.md)
 - [공통 자료](assets/README.md)
 
