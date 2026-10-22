@@ -1,4 +1,4 @@
-# Netplan 기반 NIC Active-Backup 본딩 스크립트
+# [network] Netplan 기반 NIC Active-Backup 본딩 스크립트
 
 두 물리 NIC를 선택해 `bond0`을 구성하는 Bash 스크립트다. NIC 장애에 대비한 active-backup 구성 작업에 사용한 스크립트를 정리했다.
 
