@@ -1,0 +1,20 @@
+{
+  "systems": {
+    "flypick": {
+      "version": "1.0.0",
+      "url": "https://update.your-domain.com/flypick/flypick-1.0.0.apk"
+    },
+    "manualsorting": {
+      "version": "1.0.0",
+      "url": "https://update.your-domain.com/manualsorting/manualsorting-1.0.0.apk"
+    },
+    "followme": {
+      "version": "1.2.0",
+      "url": "https://update.your-domain.com/followme/followme-1.2.0.apk"
+    },
+    "suresorter": {
+      "version": "2.0.1",
+      "url": "https://update.your-domain.com/suresorter/suresorter-2.0.1.apk"
+    }
+  }
+}

@@ -8,6 +8,7 @@
 | --- | --- | --- | --- |
 | [messaging] [MQTT 브로커 전환 및 공유 구독](projects/mqtt-ha/README.md) | EMQX 5.0, HAProxy, Docker Compose, Keepalived | 과거 작업 기록, macOS 재현 구성, 실행 로그 | 공유 구독·재연결 검증. VIP 전환은 이번 재현에서 제외 |
 | [network] [NIC Active-Backup 본딩](projects/nic-bonding/README.md) | Bash, Netplan, NetworkManager | Y사 실제 서버의 스위치 이중화 연계 NIC 본딩 작업과 스크립트 | 고객사 서버 적용. 공개본 구문 확인, 장애 전환 재시험은 미수행 |
+| [android] [폐쇄망 PDA APK 배포·자동 업데이트](projects/PDA자동업데이트/README.md) | IIS, Android, Kotlin, JSON, QR | 최초 설치·업데이트 구축 경험과 연동 가이드 | 구축 경험 기록. 실제 PDA 재시험은 미수행 |
 
 ## 협업·설계 자료
 
@@ -23,6 +24,7 @@ engineering-portfolio/
 ├── CONTRIBUTING.md
 ├── projects/                 # 공개 가능한 작업과 결과물
 │   ├── README.md
+│   ├── PDA자동업데이트/     # QR 최초 설치·업데이트 연동 가이드
 │   ├── 개발협업가이드/  # 협업·애자일·설계 가이드와 양식
 │   ├── mqtt-ha/
 │   │   ├── README.md
