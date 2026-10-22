@@ -2,6 +2,8 @@
 
 ## 테스트 경험
 
+- [macOS MQTT 재현 실습](mqtt-lab-mac/README.md): 독립 EMQX 두 대, 공유 구독 및 HAProxy 백업 전환
+
 - [MQTT 브로커 전환 및 공유 구독 테스트](mqtt-keepalived-failover.md): EMQX 5.0, HAProxy, Keepalived를 이용한 VIP 기반 전환 구성과 공유 구독 테스트
 
 ## 예정 주제
