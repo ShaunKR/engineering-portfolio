@@ -7,6 +7,10 @@
 | [messaging] [MQTT 브로커 전환 및 공유 구독](mqtt-ha/README.md) | 과거 경험과 macOS 재현 실습, 실행 결과 |
 | [network] [NIC Active-Backup 본딩](nic-bonding/README.md) | Netplan 설정 자동화 스크립트와 사용 설명 |
 
+## 협업·설계 자료
+
+- [doc] [개발 PL 협업·설계 가이드](development-playbook/README.md): 공개용으로 재작성한 제안 기준과 템플릿. 과거 적용 실적이나 운영 결과를 뜻하지 않습니다.
+
 ## 이름 표기
 
 작업 제목 앞에 `[network]`, `[messaging]`처럼 분야를 표시합니다. 기술 정리 문서는 `[doc]`으로 표시합니다. 폴더명은 짧은 영문 소문자와 하이픈을 사용합니다.

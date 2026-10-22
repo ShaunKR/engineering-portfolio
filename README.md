@@ -9,6 +9,12 @@
 | [messaging] [MQTT 브로커 전환 및 공유 구독](projects/mqtt-ha/README.md) | EMQX 5.0, HAProxy, Docker Compose, Keepalived | 과거 작업 기록, macOS 재현 구성, 실행 로그 | 공유 구독·재연결 검증. VIP 전환은 이번 재현에서 제외 |
 | [network] [NIC Active-Backup 본딩](projects/nic-bonding/README.md) | Bash, Netplan, NetworkManager | 설정 스크립트, 사용 방법과 검증 범위 | Bash 구문 확인. 실제 장애 전환은 미검증 |
 
+## 협업·설계 자료
+
+[doc] [개발 PL 협업·설계 가이드](projects/development-playbook/README.md)
+
+PMP 보유 개발 PL의 스쿼드·애자일 경험을 바탕으로 공개용으로 재작성한 자료입니다. 코드 컨벤션, 커밋·리뷰, 완료 기준, 스쿼드 운영, MSA 설계 판단과 릴리스 양식을 담았습니다. 세부 규칙은 제안 기준이며 과거 적용 실적과 구분합니다.
+
 ## 저장소 구조
 
 ```text
@@ -17,6 +23,7 @@ engineering-portfolio/
 ├── CONTRIBUTING.md
 ├── projects/                 # 공개 가능한 작업과 결과물
 │   ├── README.md
+│   ├── development-playbook/  # 협업·애자일·설계 가이드와 양식
 │   ├── mqtt-ha/
 │   │   ├── README.md
 │   │   ├── experience.md     # 과거 수행 경험
