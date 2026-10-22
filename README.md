@@ -37,16 +37,13 @@ engineering-portfolio/
 │   └── nic-bonding/
 │       ├── README.md
 │       └── setup-bond_v4.sh
-├── wiki/                     # 기술 개념·비교·선택 기준
-├── troubleshooting/          # 문제 분석과 해결 과정
 └── assets/                   # 공통 이미지와 다이어그램
 ```
 
 ## 문서 탐색
 
 - [작업 목록과 추가 방법](projects/README.md)
-- [doc] [기술 위키](wiki/README.md)
-- [트러블슈팅](troubleshooting/README.md)
+- [doc] [개발 PL 협업·설계 가이드](projects/development-playbook/README.md)
 - [공통 자료](assets/README.md)
 
 ## 기록 기준
