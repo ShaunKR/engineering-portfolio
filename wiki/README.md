@@ -10,6 +10,7 @@
 | [메시징](messaging/README.md) | 전달 보장, 순서, 재처리, 기술 선택 |
 | [Docker](docker/README.md) | 이미지, 컨테이너, 네트워크, 운영 |
 | [데이터베이스](databases/README.md) | 모델링, 인덱스, 트랜잭션, 성능 분석 |
+| [네트워크](networking/README.md) | Netplan 기반 NIC Active-Backup 본딩 |
 
 ## 기술 문서 템플릿
 
