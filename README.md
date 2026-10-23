@@ -10,6 +10,7 @@
 | [network] [NIC Active-Backup 본딩](projects/nic-bonding/README.md) | Bash, Netplan, NetworkManager | Y사 실제 서버의 스위치 이중화 연계 NIC 본딩 작업과 스크립트 | 고객사 서버 적용. 공개본 구문 확인, 장애 전환 재시험은 미수행 |
 | [android] [폐쇄망 PDA APK 배포·자동 업데이트](projects/PDA자동업데이트/README.md) | IIS, HTTP/FTP, Android, Kotlin, JSON, QR | QR 최초 설치·업데이트 및 폐쇄망 FTP anonymous 적용 경험 | 구축 경험 기록. 실제 PDA 재시험은 미수행 |
 | [robotics] [ROS 2 Windows 설치](projects/ROS2윈도우설치/README.md) | ROS 2 Humble, Windows 11, colcon, .NET | 설치 작업 기록·의존성 설정·빌드 오류 대응 | 과거 메모 정리. Windows 재빌드 미수행 |
+| [automation] [macOS 네트워크 자동 전환](projects/macOS네트워크자동전환/README.md) | Hammerspoon, Lua, Shell, macOS | Wi-Fi별 고정 IP 프로필 전환·정적 경로 복구 코드 | 실제 사용 설정의 공개본. 네트워크 변경 재시험 미수행 |
 
 ## 협업·설계 자료
 
@@ -25,6 +26,7 @@ engineering-portfolio/
 ├── CONTRIBUTING.md
 ├── projects/                 # 공개 가능한 작업과 결과물
 │   ├── README.md
+│   ├── macOS네트워크자동전환/ # Wi-Fi별 위치 전환·정적 경로 복구
 │   ├── ROS2윈도우설치/       # 설치·빌드·오류 대응 기록
 │   ├── PDA자동업데이트/     # QR 최초 설치·업데이트 연동 가이드
 │   ├── 개발협업가이드/  # 협업·애자일·설계 가이드와 양식

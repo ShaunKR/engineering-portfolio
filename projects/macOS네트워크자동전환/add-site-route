@@ -1,0 +1,24 @@
+#!/bin/sh
+
+# Site Wi-Fi 서버망 정적 라우팅
+NETWORK="198.51.100.96/27"
+GATEWAY="192.0.2.1"
+
+# 이미 올바른 라우트가 있으면 종료
+if /usr/sbin/netstat -rn -f inet | \
+   /usr/bin/awk '$1 == "198.51.100.96/27" && $2 == "192.0.2.1" { found=1 } END { exit !found }'
+then
+    exit 0
+fi
+
+# 기존에 같은 대역의 잘못된 경로가 있으면
+# 임의로 삭제하지 않고 오류 반환
+if /usr/sbin/netstat -rn -f inet | \
+   /usr/bin/awk '$1 == "198.51.100.96/27" { found=1 } END { exit !found }'
+then
+    echo "Existing route requires inspection"
+    exit 1
+fi
+
+/sbin/route -n add -net "$NETWORK" "$GATEWAY"
+
