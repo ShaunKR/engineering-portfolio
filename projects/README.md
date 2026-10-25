@@ -9,6 +9,7 @@
 | [android] [폐쇄망 PDA APK 배포·자동 업데이트](PDA자동업데이트/README.md) | HTTP·FTP 배포, QR 최초 설치, 통합 버전 정보와 앱 업데이트 연동 |
 | [robotics] [ROS 2 Windows 설치](ROS2윈도우설치/README.md) | Windows 11의 Humble 소스 빌드, 오류 대응 및 .NET 연동 기록 |
 | [automation] [macOS 네트워크 자동 전환](macOS네트워크자동전환/README.md) | Wi-Fi별 고정 IP 프로필 전환과 정적 라우팅 복구 자동화 |
+| [study] [물류 대시보드 기반 DDD 학습](DDD학습/README.md) | 실제 대시보드 코드 구조 분석과 도메인 모델링 개선안 |
 
 ## 협업·설계 자료
 
