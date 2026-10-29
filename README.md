@@ -12,6 +12,7 @@
 | [robotics] [ROS 2 Windows 설치](projects/ROS2윈도우설치/README.md) | ROS 2 Humble, Windows 11, colcon, .NET | 설치 작업 기록·의존성 설정·빌드 오류 대응 | 과거 메모 정리. Windows 재빌드 미수행 |
 | [automation] [macOS 네트워크 자동 전환](projects/macOS네트워크자동전환/README.md) | Hammerspoon, Lua, Shell, macOS | Wi-Fi별 고정 IP 프로필 전환·정적 경로 복구 코드 | 실제 사용 설정의 공개본. 네트워크 변경 재시험 미수행 |
 | [architecture] [설비 모니터링 확장과 DDD 적용](projects/DDD적용/README.md) | Java, Spring, JDBC, DDD | 현장 요구 확대에 따른 업무별 백엔드 재설계 | 단일 시스템 모니터링을 센터 통합 대시보드로 확장 |
+| [automation] [AMR SSH 접속 자동화](projects/AMR접속자동화/README.md) | macOS, zsh, SSH | 로봇 번호 기반 IP 조회·키 접속·원격 포트 접속 | 실제 사용 함수의 공개용 재작성. 구문·모의 SSH 검증 |
 
 ## 협업·설계 자료
 
@@ -27,6 +28,7 @@ engineering-portfolio/
 ├── CONTRIBUTING.md
 ├── projects/                 # 공개 가능한 작업과 결과물
 │   ├── README.md
+│   ├── AMR접속자동화/       # 로봇 번호 기반 SSH 접속 함수
 │   ├── DDD적용/             # 설비 확장에 따른 백엔드 재설계
 │   ├── macOS네트워크자동전환/ # Wi-Fi별 위치 전환·정적 경로 복구
 │   ├── ROS2윈도우설치/       # 설치·빌드·오류 대응 기록

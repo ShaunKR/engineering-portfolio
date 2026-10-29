@@ -10,6 +10,7 @@
 | [robotics] [ROS 2 Windows 설치](ROS2윈도우설치/README.md) | Windows 11의 Humble 소스 빌드, 오류 대응 및 .NET 연동 기록 |
 | [automation] [macOS 네트워크 자동 전환](macOS네트워크자동전환/README.md) | Wi-Fi별 고정 IP 프로필 전환과 정적 라우팅 복구 자동화 |
 | [architecture] [설비 모니터링 확장과 DDD 적용](DDD적용/README.md) | 설비 현황 요구 확대에 대응한 업무 도메인별 백엔드 재설계 |
+| [automation] [AMR SSH 접속 자동화](AMR접속자동화/README.md) | Mac 터미널에서 로봇 번호로 IP 조회 및 SSH 접속 |
 
 ## 협업·설계 자료
 
